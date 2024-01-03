@@ -9,6 +9,7 @@ export class Component {
   functions = {};
 
   getData = () => {
+    console.log(this.config);
     return {
       host: config.smConfig.host,
       file: this.config.file,
